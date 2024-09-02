@@ -8,7 +8,7 @@ The Maze was written was written in C ussing SDL2 library. Deveploment was perfo
 
 Run install_SDL2.sh prior to install SDL2
 
-#compilaiton
+#compilation
 
 gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm -o maze `sdl2-config --cflags` `sdl2-config --libs`;
 
